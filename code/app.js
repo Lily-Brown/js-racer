@@ -47,7 +47,6 @@ window.onload = function(){
 
 	// When player crosses finish line, display winner and reset positions
 	function whoWins() {
-		// 80
 		if(player1position==80) {
 			player1score+=1;
 			player1.style.left="45%";
@@ -76,7 +75,6 @@ window.onload = function(){
 		oneScore.innerHTML="Popeye: "+player1score;
 		twoScore.innerHTML="The Colonel: "+player2score;
 		calculateHighScores(getRaceTime());
-		console.log(highScoreElement);
 		highScoreElement.innerHTML="High Scores<BR>1. "+cleanUndefined(highScores[0])+" s<BR>2. "+cleanUndefined(highScores[1])+" s<BR>3. "+cleanUndefined(highScores[2])+" s";
 		displayButton();
 	}
