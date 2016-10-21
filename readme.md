@@ -1,25 +1,6 @@
-<!-- ---
-title: JavaScript Racer
-type: lab
-duration: "Weekend"
-creator:
-    name: Alex White
-    city: SF
-competencies: JavaScript, DOM manipulation, CSS, HTML
---- -->
-
 # JavaScript Racer
 
-## Introduction
-
-Let's start out with something fun - a game!
-
-We are going to implement a "racer game" using JavaScript, HTML and CSS.
-
-You will be working individually for this project, but we'll be guiding you as you get started.
-
-
-## Exercise
+## Chicken Run!
 
 #### Requirements
 
